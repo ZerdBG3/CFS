@@ -23,7 +23,7 @@ local function CFS_StatsLoaded()
     for _, name in pairs(Ext.Stats.GetStats("SpellData")) do
         local spell = Ext.Stats.Get(name)
         if CFS_HasValueInList(spell.SpellFlags, "IsConcentration") then
-            Ext.Utils.Print("\nAdding requirement to " .. spell.Name)
+            -- Ext.Utils.Print("\nAdding requirement to " .. spell.Name)
 
             local requirementConditionsPrefix = ""
             if spell.RequirementConditions ~= nil and spell.RequirementConditions ~= "" then
@@ -32,7 +32,7 @@ local function CFS_StatsLoaded()
 
             spell.RequirementConditions = requirementConditionsPrefix ..
                 "(RAW_ConcentrationBlocker())"
-            Ext.Utils.Print("\tRequirementConditions: " .. spell.RequirementConditions)
+            -- Ext.Utils.Print("\tRequirementConditions: " .. spell.RequirementConditions)
 
             local requirementEvents = spell.RequirementEvents
             for _, event in pairs (ENUM_CFS_Concentration_RequirementEvents) do
@@ -41,8 +41,8 @@ local function CFS_StatsLoaded()
                 end
             end
             spell.RequirementEvents = requirementEvents
-            Ext.Utils.Print("\tRequirementEvents: ")
-            _D(spell.RequirementEvents)
+            -- Ext.Utils.Print("\tRequirementEvents: ")
+            -- _D(spell.RequirementEvents)
         end
     end
 
@@ -50,13 +50,13 @@ local function CFS_StatsLoaded()
         local char = Ext.Stats.Get(name)
 
         if CFS_CharIsHero(char) then
-            Ext.Utils.Print("\nCharacter: " .. name)
+            -- Ext.Utils.Print("\nCharacter: " .. name)
             if string.find(char.Passives, CFS_ConcentrationBlocker_Passive) then
-                Ext.Utils.Print("\tSkipping; already has passive")
+                -- Ext.Utils.Print("\tSkipping; already has passive")
             else
-                Ext.Utils.Print("\tAdding passive: " .. CFS_ConcentrationBlocker_Passive)
+                -- Ext.Utils.Print("\tAdding passive: " .. CFS_ConcentrationBlocker_Passive)
                 char.Passives = CFS_ConcentrationBlocker_Passive .. ";" .. char.Passives
-                Ext.Utils.Print("\tPassives: " .. char.Passives)
+                -- Ext.Utils.Print("\tPassives: " .. char.Passives)
             end
         end
     end
