@@ -22,3 +22,9 @@ https://github.com/ZerdBG3/CFS/assets/40004649/10e35497-fa54-4781-9e61-1e21b4647
 
 * If you're using [Zerd's Rules As Written](https://github.com/ZerdBG3/RAW), there's no need to use this mod, since `RAW` already has an option for this same feature (⚙️ `concentration_failsafe`)
 * The mod adds the passive to all hero characters through the Script Extender. There is no preferred position on the load order, since it doesn't overwrite any base game entries
+
+# Nexus Mods
+
+* If you like it, make sure you Endorse it on the [Nexus Mods page](https://www.nexusmods.com/baldursgate3/mods/2833)
+
+![CFS Passive](https://github.com/ZerdBG3/CFS/assets/40004649/ebca5c95-02c2-4cea-912e-e0228a980da4)
