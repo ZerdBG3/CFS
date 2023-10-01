@@ -6,5 +6,5 @@
     <content contentuid="h4d215fa7g6d15g4acbg8139g56cb67212a5c" version="1">Concentration Failsafe</content><!-- Concentration Block -->
 
     <!-- Passive Description -->
-    <content contentuid="h7af02440ga775g44ddga0e4g04987028c1e7" version="1">Prevents casting spells that requires &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; while concentrating in another spell.</content><!-- Concentration Block -->
+    <content contentuid="h7af02440ga775g44ddga0e4g04987028c1e7" version="1">Prevents casting spells that require &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; while concentrating on another spell.</content><!-- Concentration Block -->
 </contentList>
