@@ -1,6 +1,8 @@
 Concentration Failsafe for Baldur's Gate 3
 =======
 
+https://github.com/ZerdBG3/CFS/assets/40004649/10e35497-fa54-4781-9e61-1e21b464799f
+
 # Requirements
 * This mod requires Norbyte's [BG3 Script Extender](https://github.com/Norbyte/bg3se/releases). You can install it following the instructions on its page, or install through Laughing Leader's [Mod Manager](https://github.com/LaughingLeader/BG3ModManager)
 
