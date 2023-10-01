@@ -1,0 +1,7 @@
+{
+    "RequiredVersion": 1,
+    "ModTable": "CFS_6f533fc2-e9eb-41ca-889e-41f4f89e4457",
+    "FeatureFlags": [
+        "Lua"
+    ]
+}

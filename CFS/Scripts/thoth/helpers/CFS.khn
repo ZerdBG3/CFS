@@ -1,0 +1,4 @@
+function RAW_ConcentrationBlocker()
+    result = ~HasStatus('RAW_CONCENTRATION_BLOCKER')
+    return ConditionResult(result.Result, {ConditionError("RAW_ConcentrationBlocker_False")})
+end
