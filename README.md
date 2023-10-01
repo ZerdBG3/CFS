@@ -14,7 +14,7 @@ https://github.com/ZerdBG3/CFS/assets/40004649/10e35497-fa54-4781-9e61-1e21b4647
 
 # Description
 
-* Provides a toggleable passive for players that prevents casting spells that requires Concentration while concentrating in another spell.
+* Provides a toggleable passive for players that prevents casting spells that require Concentration while concentrating on another spell.
 * Toggle it off or manually stop the concentration (clicking the `X` below the portrait) to cast another concentration spell.
 * Given the implementation, spells that are concentration but don't give the caster a status might result in the concentration spells being blocked even so the caster ended concentration manually (or timeout). Basically taking any action (even moving) will remove the blockage, but if nothing works, just untoggle the passive to remove the blockage.
 
@@ -27,4 +27,4 @@ https://github.com/ZerdBG3/CFS/assets/40004649/10e35497-fa54-4781-9e61-1e21b4647
 
 * If you like it, make sure you Endorse it on the [Nexus Mods page](https://www.nexusmods.com/baldursgate3/mods/2833)
 
-![CFS Passive](https://github.com/ZerdBG3/CFS/assets/40004649/ebca5c95-02c2-4cea-912e-e0228a980da4)
+![CFS Passive](https://github.com/ZerdBG3/CFS/assets/40004649/d7d95456-3bf1-4fc4-a03e-c28082afeca2)
