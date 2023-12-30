@@ -16,7 +16,7 @@ https://github.com/ZerdBG3/CFS/assets/40004649/10e35497-fa54-4781-9e61-1e21b4647
 
 * Provides a toggleable passive for players that prevents casting spells that require Concentration while concentrating on another spell.
 * Toggle it off or manually stop the concentration (clicking the `X` below the portrait) to cast another concentration spell.
-* Given the implementation, spells that are concentration but don't give the caster a status might result in the concentration spells being blocked even so the caster ended concentration manually (or timeout). Basically taking any action (even moving) will remove the blockage, but if nothing works, just untoggle the passive to remove the blockage.
+* Given the implementation, spells that are concentration but don't give the caster a status might result in the concentration spells being blocked even though the caster ended concentration manually (or timeout). Basically taking any action (even moving) will remove the blockage, but if nothing works, just untoggle the passive to remove the blockage.
 
 # Compatibility
 
